@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block body %}
+<ul>
+  {% for note in notes %}
+    <li class="sticky">{{ note.text }}</li>
+  {% endfor %}
+<ul>
+  {% endblock %}

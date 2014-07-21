@@ -1,0 +1,10 @@
+{% load staticfiles %}
+<html>
+<head>
+  <title>sticky notes - {% block title %}{% endblock%}</title>
+  <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+</head>
+<body>
+{% block body %}{% endblock %}
+</body>
+</html>
