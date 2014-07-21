@@ -1,4 +1,4 @@
-"""
+""" 
 Django settings for dj14 project.
 
 For more information on this file, see
@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'j&1k*8j3hfpj5xij_+60+&4@lg2@7fh9etpae(#ir@#9no_)_&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -79,5 +79,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
+
+STATIC_ROOT = '/opt/dj14/static'
 
 STATIC_URL = '/static/'
