@@ -24,7 +24,7 @@ DEBUG = False
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['104.131.240.201']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
